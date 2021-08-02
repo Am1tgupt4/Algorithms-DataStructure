@@ -3,9 +3,9 @@
 
 
 ## Full List
-- Big O Notation (A way of describing efficiency of a code)
-- Analysing performance of Arrays & Objects
-- Problem Solving Approaches (Framework to think about solving problem)
+- Big O Notation (A way of describing efficiency of a code) [DONE]
+- Analysing performance of Arrays & Objects [DONE]
+- Problem Solving Approaches (Framework to think about solving problem) [DONE]
 - Problem Solving Patterns (Concrete Patterns)
   - Divide & Conquer
   - Sliding Window 
