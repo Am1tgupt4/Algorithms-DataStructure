@@ -1,4 +1,5 @@
-// Lecture 1: Big O Notation
+// Lecture 1: Big O Notation // 
+
 /*
 Objectives:
 - What is Big O notation?
@@ -23,7 +24,11 @@ How do we know which one is best?
   - It comes in a interview a lot.
 */
 
-// Lecture 2: Timing of your code.
+
+
+
+
+// Lecture 2: Timing of your code. //
 /*
 Q. Suppose a code that sums 1 upto n numbers.
 We have two solutions I and II.
@@ -66,7 +71,10 @@ function addUpTo(n) {
   return (n * (1 + n)) / 2
 }
 
-// Lecture 3: Counting Operations
+
+
+
+// Lecture 3: Counting Operations //
 /*
 - Can we count number of operation involved inside of
   an algorithm? because it remains will constant.
@@ -83,10 +91,18 @@ function addUpTo(n) {
  "general trend".
 */
 
-// Lecture 4: Visualise Time Complexity
+
+
+
+
+
+// Lecture 4: Visualise Time Complexity //
 /*
 - https://rithmschool.github.io/function-timer-demo/
 */
+
+
+
 
 // Lecture 5: Big O notation
 /*
@@ -105,7 +121,9 @@ grows as the inputs grow. we care about trends.
 "If input grows how runtime grows?"
 */
 
-// Lecture 5: Simplifying Big O expressions
+
+
+// Lecture 6: Simplifying Big O expressions
 /*
 Rules:
 - Constants Don't matter.
@@ -138,7 +156,10 @@ O(n^2)
 
 */
 
-// Lecture 6: Space Complexity
+
+
+
+// Lecture 6: Space Complexity //
 /*
 Time Complexity:
  Analyzing the runtime of an algorithm as
@@ -164,7 +185,6 @@ are constant space.
 - Reference types are generally O(n), where n
 is the length (for arrays) or number of keys (for Objects)
 
-
 */
 
 
@@ -189,7 +209,8 @@ function double(arr) {
 }
 
 
-// Lecture 7: Logarithms
+
+// Lecture 7: Logarithms //
 /*
 Logarithms is inverse of an exponential.
 log(8) ~ 3
