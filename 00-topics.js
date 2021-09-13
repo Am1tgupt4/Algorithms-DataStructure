@@ -31,6 +31,7 @@
 
 
 // https://www.youtube.com/watch?v=lDTKnzrX6qU&ab_channel=ChrisJereza 
+/*
 Iteration + Recursion
 Arrays + Matrices(Multi dimensional Arrays)
 Linked Lists
@@ -108,3 +109,4 @@ Be Smart
 - Self Awareness (When you’re going down to wrong path and correcting it)
 - Consistency (Do everyday)
 - Intensity (Label of mental Engagement)
+*/
