@@ -18,9 +18,9 @@ How do we know which one is best?
 - Would it not be nice if we have a system which
   we can use which code is good (A number)?
 - Who cares about it? 
-  - Useful in discussing tradeoffs.
+  - Useful in discussing tradeoffs between many solutions.
   - when you debug your code, it helps to understand
-    where the problem may arrive.
+    which part of code could possibly be making the code slow.
   - It comes in a interview a lot.
 */
 
@@ -47,13 +47,14 @@ But first 2 are important.
 
 Measure Time:
 - use timing function to find which code runs faster.
-  - We found that it changes even on the same machine.
-    Manually timing codes is not efficient.
+- Timer Function: performance.now()
 - The Problem with Time
   - Different machines will record different times.
   - The same machine will record different times.
   - For fast algorithms, speed measurements may not
     be precise enough?
+  - We found that it changes even on the same machine.
+    Manually timing codes is not efficient.
 */
 
 // Solution I
@@ -107,8 +108,8 @@ function addUpTo(n) {
 // Lecture 5: Big O notation
 /*
 - A formalized fuzzy counting. It allows us to
-talk formally about how runtime of an algorithm
-grows as the inputs grow. we care about trends.
+  talk formally about how runtime of an algorithm
+  grows as the inputs grow. we care about trends.
 
 - The Algorithm is O(f(n)) if the number of simple
   operations the computer has to do is eventually
@@ -118,7 +119,7 @@ grows as the inputs grow. we care about trends.
   cost scenario.
 - we care about trend:
   * n + n ~ 2n ~ n ~ O(n)
-"If input grows how runtime grows?"
+  "If input grows how runtime grows?"
 */
 
 
@@ -171,19 +172,19 @@ Space Complexity:
 
 What about the inputs?
 * Auxiliary space complexity refers to space
-  required by algirthm, not including space taken 
+  required by algorithm, not including space taken 
   up by the inputs.
 
 * So when we talk about space complexity we technically
-talk about auxiliary space complexity.
+  talk about auxiliary space complexity.
 
 
 Rules of thumb:
 - Most primitives (booleans, numbers, undefined, null)
-are constant space.
+  are constant space.
 - Strings require O(n) space (where n is the string len)
 - Reference types are generally O(n), where n
-is the length (for arrays) or number of keys (for Objects)
+  is the length (for arrays) or number of keys (for Objects)
 
 */
 
@@ -223,5 +224,5 @@ O(log n) is great, it is almost near to constant time complexity.
 When it come up?
 Searching algorithms.
 Efficient sorting algorithms also have this.
-Recursion also is logn.
+Recursion also uses log(n).
 */
