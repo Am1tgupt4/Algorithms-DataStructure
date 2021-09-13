@@ -1,6 +1,6 @@
 // Section 4: Problem solving approach, Notes: https://cs.slides.com/colt_steele/problem-solving-patterns
 
-// Lecture 1: Algorithms and Problem solving patterns
+// Lecture 1: Algorithms and Problem solving patterns //
 /*
 # We face some challenge and we don't know how to solve it.
 
@@ -8,7 +8,7 @@
  - what is an algorithms
  - devise a plan to solve a problem
  - compare and contrast problem solving patterns including frequency
- counters, two pointer problems and divide and conquer.
+   counters, two pointer problems and divide and conquer.
 
 # What is an Algorithm?
  A process or set of steps to accomplish a certain task.
