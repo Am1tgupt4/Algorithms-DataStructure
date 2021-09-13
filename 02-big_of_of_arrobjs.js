@@ -4,6 +4,8 @@ https://cs.slides.com/colt_steele/built-in-data-structures-25
 https://cs.slides.com/colt_steele/built-in-data-structures-30
 */
 
+
+
 // Lecture 1: Section Introduction
 /*
  - Big O of Arrays and Objects
@@ -15,7 +17,9 @@ https://cs.slides.com/colt_steele/built-in-data-structures-30
 
 */
 
-// Lecture 2: Big of Objects
+
+
+// Lecture 2: Big O of Objects
 /*
  When to use Objects?
  - When we don't need order
@@ -42,6 +46,10 @@ let instructor = {
   isInstructor: true,
   favouriteNumbers: [1, 2, 3],
 }
+
+
+
+
 
 // Lecture 3: When are array slow?
 /*
